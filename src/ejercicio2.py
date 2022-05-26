@@ -2,7 +2,6 @@
 # Mara Fillol - @marafillol
 # UNRN Andina - Introducción a la Ingenieria en Computación
 ################
-
 def signo(numero):
     """Esta función determina si el número ingresado es positivo, neutro o negativo.
     """
