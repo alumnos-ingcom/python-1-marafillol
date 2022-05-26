@@ -2,7 +2,6 @@
 # Mara Fillol - @marafillol
 # UNRN Andina - Introducción a la Ingenieria en Computación
 ################
-
 def convertir_a_fahrenheit(centigrados):
     """Esta función convierte grados centigrados a grados fahrenheit.
     """
