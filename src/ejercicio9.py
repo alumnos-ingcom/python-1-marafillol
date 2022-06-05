@@ -24,6 +24,7 @@ def principal():
     Esta función es la parte interactiva del programa.
     """
     numero = int(input("Ingrese un numero: "))
-    print(factores_primos(numero))
+    respuesta = factores_primos(numero)
+    print(respuesta)
 if __name__ == "__main__":
-    principal(
+    principal()
