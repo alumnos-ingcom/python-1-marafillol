@@ -2,6 +2,8 @@
 # Mara Fillol - @marafillol
 # UNRN Andina - Introducción a la Ingenieria en Computación
 ################
+"""EJERCICIO 3
+"""
 def compara(numero, otro_numero):
     """Esta función determina si el primer número es mayor, menor o igual al segundo.
     """
@@ -22,6 +24,7 @@ def principal():
     """
     numero = float(input("Ingrese un numero:  "))
     otro_numero = float(input("Ingrese un numero:  "))
-    print(compara(numero, otro_numero))
+    respuesta = compara(numero, otro_numero)
+    print(respuesta)
 if __name__ == "__main__":
     principal()
