@@ -20,7 +20,8 @@ def principal():
     Esta función es la parte interactiva del programa.
     """
     texto = input("Ingrese una palabra: ")
-    print(es_palindromo(texto))
+    respuesta = es_palindromo(texto)
+    print(respuesta)
 if __name__ == "__main__":
     principal()
     
