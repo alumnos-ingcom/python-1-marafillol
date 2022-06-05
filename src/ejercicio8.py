@@ -20,7 +20,8 @@ def principal():
     Esta función es la parte interactiva del programa.
     """
     numero = int(input('Ingrese un numero: '))
-    print(es_primo(numero))
+    resultado = es_primo(numero)
+    print(resultado)
 if __name__ == "__main__":
     principal()
     
