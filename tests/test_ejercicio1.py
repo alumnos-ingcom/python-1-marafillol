@@ -40,3 +40,4 @@ def test_convertir_a_fahrenheit_iguales():
     resultado = convertir_a_fahrenheit(centigrados)
     assert isinstance(resultado, float), "El resultado debe ser un número decimal."
     assert resultado == -40.0, "No se obtiene el resultado esperado."
+    
