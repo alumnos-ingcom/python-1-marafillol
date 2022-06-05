@@ -12,7 +12,7 @@ def es_multiplo(numero, multiplo):
             numero = numero + numero
         resultado = numero == multiplo
     else:
-        resultado = "Ingrese un número entero positivo"
+        resultado = "No ha ingresado un número entero positivo"
     return resultado
 def principal():
     """
@@ -20,7 +20,8 @@ def principal():
     """
     numero = int(input('Ingrese un numero: '))
     multiplo = int(input('Ingrese un multiplo: '))
-    print(es_multiplo(numero, multiplo))
+    respuesta = es_multiplo(numero, multiplo)
+    print(respuesta)
 if __name__ == "__main__":
     principal()
     
