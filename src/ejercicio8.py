@@ -15,12 +15,3 @@ def es_primo(numero):
             divisores = divisores + 1
     respuesta = divisores == 2
     return respuesta
-def principal():
-    """
-    Esta función es la parte interactiva del programa.
-    """
-    numero = int(input('Ingrese un numero: '))
-    print(es_primo(numero))
-if __name__ == "__main__":
-    principal()
-    
