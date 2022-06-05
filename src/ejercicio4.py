@@ -18,7 +18,7 @@ def suma_lenta(numero, otro_numero):
             numero = numero - 1
             print(' - 1',end='')
         contador = contador + 1
-    resultado = (f" = {numero}")
+    resultado = numero
     return resultado
 def principal():
     """
@@ -27,7 +27,7 @@ def principal():
     numero = int(input('Ingrese el primer valor: '))
     otro_numero = int(input('Ingrese el segundo valor: '))
     respuesta = suma_lenta(numero, otro_numero)
-    print(respuesta)
+    print(f" = {respuesta}")
 if __name__ == "__main__":
     principal()
     
