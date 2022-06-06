@@ -6,6 +6,7 @@
 """
 def es_palindromo(texto):
     """Esta función identifica si un texto es palindromo"""
+    texto = texto.lower()
     lista = list(texto)
     limite = len(texto)
     contador = 0
