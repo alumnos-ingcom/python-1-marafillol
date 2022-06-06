@@ -9,10 +9,11 @@ def es_primo(numero):
     """
     contador = 0
     divisores = 0
-    while contador != numero:
-        contador = contador + 1
-        if numero % contador == 0:
-            divisores = divisores + 1
+    if numero >= 2:
+        while contador != numero:
+            contador = contador + 1
+            if numero % contador == 0:
+                divisores = divisores + 1
     respuesta = divisores == 2
     return respuesta
 def principal():
